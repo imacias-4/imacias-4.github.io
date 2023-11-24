@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <title>Lost Planet 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/estils.css">
+</head>
+
+<body>
+  <header>
+    <h2>Lost Planet 2</h2>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Lost Planet 2</a></li>
+        <li><a href="faccions.html">Faccions</a></li>
+        <li><a href="akrids.html">Akrids</a></li>
+        <li><a href="capítols.html">Capítols</a></li>
+        <li><a class="active" href="experiència.html">La teva experiència</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <form action="gracies.html" method="get" name="experiència" id="experiència">
+        <fieldset>
+          <legend>La teva experencia en Lost Planet 2</legend>
+
+          <label for="facció">Quina és la teva facció preferida?</label><br><br>
+          <select id="facció" required>
+            <option value="" selected></option>
+            <option value="NEVEC">NEVEC</option>
+            <option value="selva">Pirates de la selva</option>
+            <option value="neus">Pirates de les neus</option>
+            <option value="Baggers">Carpet Baggers</option>
+            <option value="Mercenaris">Mercenaris</option>
+            <option value="Vagabunds">Vagabunds</option>
+            <option value="Sandriders">Sandriders</option>
+          </select><br><br>
+
+          <label for="Akrid">Quina és el Akrid més dificil per a tu?</label><br><br>
+          <select id="Akrid" required>
+            <option value="" selected></option>
+            <option value="Red_Eye">Red Eye</option>
+            <option value="Queen">Queen</option>
+            <option value="Gordiant">Gordiant</option>
+            <option value="Debouse">Debouse</option>
+            <option value="Baiztencaleclean">Baiztencaleclean</option>
+            <option value="Altre">Altre</option>
+          </select><br><br>
+
+          <label for="capítol">Quin capítol és el que més t'agrada?</label><br><br>
+          <input required type="radio" name="capítol" value="cap1" id="cap1">Capítol 1<br>
+          <input type="radio" name="capítol" value="cap2" id="cap2">Capítol 2<br>
+          <input type="radio" name="capítol" value="cap3" id="cap3">Capítol 3<br>
+          <input type="radio" name="capítol" value="cap4" id="cap4">Capítol 4<br>
+          <input type="radio" name="capítol" value="cap5" id="cap5">Capítol 5<br>
+          <input type="radio" name="capítol" value="cap6" id="cap6">Capítol 6<br><br>
+
+          <button type="submit" id="submit">Enviar experiència</button>
+        </fieldset>
+      </form>
+    </article>
+  </section>
+
+  <footer>
+    <p>By Iv@n</p>
+  </footer>
+</body>
+
+</html>
